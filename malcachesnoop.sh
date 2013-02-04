@@ -15,7 +15,6 @@ curl -O https://secure.mayhemiclabs.com/malhosts/malhosts.txt &>/dev/null
 
 # Initialize counter for array
 n=1
-i
 
 # Begin loop to read in file
 while read name
