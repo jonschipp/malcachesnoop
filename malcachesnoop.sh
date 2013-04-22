@@ -30,7 +30,7 @@ fi
 ns=$(dig -x @$1 -x "$1" +short)
 
 # d/l latest malware host list
-curl -O https://secure.mayhemiclabs.com/malhosts/malhosts.txt &>/dev/null
+curl --insecure -O https://secure.mayhemiclabs.com/malhosts/malhosts.txt &>/dev/null
 
 # Initialize counter for array
 n=1
